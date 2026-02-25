@@ -9,6 +9,7 @@
   width: 100vw;
   height: 100vh;
   grid-template: 2fr 1fr 3fr 3fr 1fr / 1fr 4fr;
+  gap: 4px;
 }
 
 .container div {
@@ -67,9 +68,16 @@
   background-color: #C50208;
 }
 
+.nav ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  list-style: none;
+}
+
 .nav ul li {
   font-size: 16px;
   text-transform: uppercase;
+
 }
 
 .article {
